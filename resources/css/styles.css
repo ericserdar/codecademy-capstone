@@ -42,16 +42,17 @@ nav {
 
 /* hero image section styles */
 
-section {
+.hero{
   display: flex;
   background-color: lightgray;
   height: 600px;
   flex-direction: row;
   align-items: center;
   margin: auto 0;
+  padding-bottom: 32px;
 }
 
-section img {
+.hero-image {
   width: 60%;
   margin: 16px 24px;
   object-fit: fill;
@@ -87,3 +88,32 @@ margin-bottom: 2rem;
 }
 
 /* article styling section */
+.articles {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.large-article {
+  padding-top: 32px;
+  margin-left: 24px;
+  width: 60%;
+}
+
+.information-main {
+  object-fit: contain;
+overflow: hidden;
+
+}
+
+.large-article h2 {
+  line-height: 1.25;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.column-articles {
+  width: 40%;
+
+}
